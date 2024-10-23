@@ -1,0 +1,134 @@
+div{
+    margin: 10px;
+    font-size: 20px;
+    height: 80px;
+}
+
+Body{
+    background-color:darkslategrey;
+}
+
+#header{
+    background-color: darkgrey;
+    height: 80px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#leftSidebar{
+    background-color: darkgrey;
+    float: left;
+    width: 130px;
+    height: 600px;
+    background-image: url(img/IMG_0934.jpg);
+    background-position: center;
+    
+}
+
+#rightSidebar{
+    background-color: darkgrey;
+    float: right;
+    width: 130px;
+    height: 600px;
+    background-image: url(img/IMG_0937.jpg);
+    background-position: center
+}
+
+#main{
+    background-color: rgb(87, 82, 95);
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 620px;  
+    height: fixed;  
+    display: grid;
+    gap: 20px;
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+    margin-left: 470px;
+    gap: 30px;
+}
+
+.image-1{
+    background-color: rgb(87, 82, 95);
+    height: 50px;
+    width: 50px;
+    transition: all 0.5s ease;
+}
+
+.image-1:hover{
+    transform: scale(1.0);
+    background-color: darkslategrey;
+    border-radius: 20%;
+    height: 52px;
+    width: 50px;
+}
+
+.image-2{
+    background-color: rgb(87, 82, 95);
+    height: 50px;
+    width: 50px;
+    transition: all 0.5s ease;
+}
+
+.image-2:hover{
+    transform: scale(1.0);
+    background-color: darkslategrey;
+    border-radius: 20%;
+    height: 52px;
+}
+
+.image-3{
+    background-color: rgb(87, 82, 95);
+    height: 50px;
+    width: 50px;
+    transition: all 0.5s ease;
+}
+
+.image-3:hover{
+    transform: scale(1.0);
+    background-color: darkslategrey;
+    border-radius: 20%;
+    height: 52px;
+}
+
+h3{
+    color: rgb(154, 169, 160);
+}
+
+button{
+    background-color: darkolivegreen;
+    height: 20px;
+    width: 90px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    width: 95px;
+    height: 20px;
+    background-color: cadetblue;
+}
+
+#footer{
+    background-color: rgb(53, 79, 76);
+}
+
+p{
+    float: left;
+    margin-left: 40px;
+    margin-top: -90px;
+
+}
+
+.gmail{
+    margin-top: -75px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
